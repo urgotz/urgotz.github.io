@@ -1,5 +1,51 @@
-title: Cayman theme
-description: Cayman is a clean, responsive theme for GitHub Pages.
-show_downloads: true
+title: Urgotz
+SEOTitle: 别写bug了，王二狗 | Urgotz
+description: 左手时光机，右手屁屁踢
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-cayman
+header-img: img/bg_img_002.jpg
+url: "https://Urgotz.github.io"  
+baseurl: "" 
+
+
+# SNS settings
+RSS: false
+github_username:    Urgotz
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+# markdown: kramdown
+# kramdown:
+#   input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "here is about page description"
+sidebar-avatar: /img/favicon.png      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
